@@ -25,6 +25,10 @@ Before you begin, ensure you have the following prerequisite installed:
 
 1. **Clone the Repository**: 
 
+```bash
+git remote add https://github.com/ayushsgithub/grouple_task.git
+```
+
 2. **Navigate to the Project Directory**:
 
 3. **Install Dependencies**:
