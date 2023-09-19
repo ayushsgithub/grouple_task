@@ -2,6 +2,8 @@
 
 A modern and user-friendly weather application built with React, Tailwind CSS, and JavaScript.
 
+![Weather App Screenshot](https://raw.githubusercontent.com/ayushsgithub/grouple_task/main/src/assets/app.png)
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
