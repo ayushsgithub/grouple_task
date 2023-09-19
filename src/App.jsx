@@ -40,13 +40,15 @@ const App = () => {
       } else {
         const response = await axios.get(url);
         setData(response.data);
+        console.log(response.data)
         setLat(response.data.coord.lat);
         setLon(response.data.coord.lon);
 
         setTimeout(async () => {
           const res = await axios.get(urlDaily);
           setDaily(res.data);
-        }, 1000);
+          console.log(res.data)
+        }, 800);
 
         showToast("Successfully Fetched Data", "success");
       }
@@ -80,7 +82,7 @@ const App = () => {
             value={location}
             onChange={(e) => setLocation(e.target.value)}
             type="text"
-            placeholder="Search for city..."
+            placeholder="Search for city or zip..."
             className="text-xl font-light p-2 w-full shadow-xl focus:outline-none rounded-sm"
           />
           <UilSearch
