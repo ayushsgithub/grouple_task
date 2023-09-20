@@ -34,7 +34,7 @@ const App = () => {
         setTimeout(async () => {
           const res = await axios.get(urlDaily);
           setDaily(res.data);
-        }, 1000);
+        }, 100);
 
         showToast("Successfully Fetched Data", "success");
       } else {
@@ -48,7 +48,7 @@ const App = () => {
           const res = await axios.get(urlDaily);
           setDaily(res.data);
           console.log(res.data)
-        }, 800);
+        }, 100);
 
         showToast("Successfully Fetched Data", "success");
       }
