@@ -4,6 +4,8 @@ A modern and user-friendly weather application built with React, Tailwind CSS, a
 
 ![Weather App Screenshot](https://raw.githubusercontent.com/ayushsgithub/grouple_task/main/src/assets/app.png)
 
+[Deployed Link]()
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
@@ -13,7 +15,6 @@ A modern and user-friendly weather application built with React, Tailwind CSS, a
   - [Running the Application](#running-the-application)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
 
 ## Getting Started
 
@@ -21,19 +22,28 @@ A modern and user-friendly weather application built with React, Tailwind CSS, a
 
 Before you begin, ensure you have the following prerequisite installed:
 
-- [Node.js](https://nodejs.org/)
+- Git
+- NPM
 
 ### Installation
 
 1. **Clone the Repository**: 
 
 ```bash
-git remote add https://github.com/ayushsgithub/grouple_task.git
+git clone https://github.com/ayushsgithub/grouple_task.git
 ```
 
 2. **Navigate to the Project Directory**:
 
+```bash
+cd grouple_task
+```
+
 3. **Install Dependencies**:
+
+```bash
+npm install
+```
 
 ### Configuration
 
@@ -43,6 +53,10 @@ git remote add https://github.com/ayushsgithub/grouple_task.git
 - In the project root directory, create a `.env` file if it doesn't already exist.
 
 3. **Add Your API Key to the `.env` File**:
+
+```bash
+VITE_API_KEY=
+```
 
 ### Running the Application
 
