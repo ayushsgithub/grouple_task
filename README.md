@@ -4,7 +4,7 @@ A modern and user-friendly weather application built with React, Tailwind CSS, a
 
 ![Weather App Screenshot](https://raw.githubusercontent.com/ayushsgithub/grouple_task/main/src/assets/app.png)
 
-[Deployed Link]()
+[Deployed Link](https://grouple-task.netlify.app/)
 
 ## Table of Contents
 
