@@ -75,7 +75,7 @@ const App = () => {
   }, [units, lat]);
 
   return (
-    <div className="mx-auto max-w-screen-lg py-5 px-4 sm:px-8 md:px-16 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-xl">
+    <div className="mx-auto max-w-screen-lg py-5 px-4 sm:px-8 md:px-16 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit min-h-screen shadow-xl">
       <div className="flex flex-col sm:flex-row justify-center my-6">
         <div className="flex flex-row w-full sm:w-3/4 items-center justify-center space-x-4">
           <input
